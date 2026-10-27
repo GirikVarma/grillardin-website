@@ -1,0 +1,252 @@
+[
+  {
+    "id": "dining-detail",
+    "sourcePage": 3,
+    "sourceLabel": "View 1",
+    "kind": "architectural-render",
+    "alt": "Dining tables, a planted column and the open-kitchen arch",
+    "originalSize": [
+      3840,
+      2560
+    ],
+    "variants": {
+      "800": {
+        "file": "assets/interiors/dining-detail-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 108580
+      },
+      "1600": {
+        "file": "assets/interiors/dining-detail-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 337338
+      }
+    }
+  },
+  {
+    "id": "dining-day",
+    "sourcePage": 4,
+    "sourceLabel": "View 2day",
+    "kind": "architectural-render",
+    "alt": "Daytime design render of the Grillardin dining room",
+    "originalSize": [
+      3840,
+      2560
+    ],
+    "variants": {
+      "800": {
+        "file": "assets/interiors/dining-day-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 111870
+      },
+      "1600": {
+        "file": "assets/interiors/dining-day-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 357684
+      }
+    }
+  },
+  {
+    "id": "dining-night",
+    "sourcePage": 5,
+    "sourceLabel": "View 3night",
+    "kind": "architectural-render",
+    "alt": "Evening design render of the Grillardin dining room",
+    "originalSize": [
+      3840,
+      2560
+    ],
+    "variants": {
+      "800": {
+        "file": "assets/interiors/dining-night-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 113984
+      },
+      "1600": {
+        "file": "assets/interiors/dining-night-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 368430
+      }
+    }
+  },
+  {
+    "id": "dining-pattern",
+    "sourcePage": 6,
+    "sourceLabel": "View 4",
+    "kind": "architectural-render",
+    "alt": "Dining room design render showing botanical ceiling and banquette wall",
+    "originalSize": [
+      3840,
+      2560
+    ],
+    "variants": {
+      "800": {
+        "file": "assets/interiors/dining-pattern-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 127506
+      },
+      "1600": {
+        "file": "assets/interiors/dining-pattern-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 373780
+      }
+    }
+  },
+  {
+    "id": "kitchen-corner",
+    "sourcePage": 7,
+    "sourceLabel": "View 5",
+    "kind": "architectural-render",
+    "alt": "Open-kitchen corner design render with framed art and olive seating",
+    "originalSize": [
+      3840,
+      2560
+    ],
+    "variants": {
+      "800": {
+        "file": "assets/interiors/kitchen-corner-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 84208
+      },
+      "1600": {
+        "file": "assets/interiors/kitchen-corner-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 249636
+      }
+    }
+  },
+  {
+    "id": "dining-aisle",
+    "sourcePage": 8,
+    "sourceLabel": "View 6",
+    "kind": "architectural-render",
+    "alt": "Design render along the dining aisle with planted glass dividers",
+    "originalSize": [
+      3840,
+      2560
+    ],
+    "variants": {
+      "800": {
+        "file": "assets/interiors/dining-aisle-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 103896
+      },
+      "1600": {
+        "file": "assets/interiors/dining-aisle-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 319928
+      }
+    }
+  },
+  {
+    "id": "bar-detail",
+    "sourcePage": 9,
+    "sourceLabel": "View 7",
+    "kind": "architectural-render",
+    "alt": "Bar design render with brass pendants and olive upholstered stools",
+    "originalSize": [
+      3840,
+      2560
+    ],
+    "variants": {
+      "800": {
+        "file": "assets/interiors/bar-detail-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 95402
+      },
+      "1600": {
+        "file": "assets/interiors/bar-detail-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 320412
+      }
+    }
+  },
+  {
+    "id": "dining-bar",
+    "sourcePage": 10,
+    "sourceLabel": "View 8",
+    "kind": "architectural-render",
+    "alt": "Dining room and bar design render under globe chandeliers",
+    "originalSize": [
+      3840,
+      2560
+    ],
+    "variants": {
+      "800": {
+        "file": "assets/interiors/dining-bar-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 112906
+      },
+      "1600": {
+        "file": "assets/interiors/dining-bar-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 342436
+      }
+    }
+  },
+  {
+    "id": "kitchen-arch",
+    "sourcePage": 11,
+    "sourceLabel": "View 9",
+    "kind": "architectural-render",
+    "alt": "Design render of the open-kitchen arch with green tiles and trailing plants",
+    "originalSize": [
+      3840,
+      2560
+    ],
+    "variants": {
+      "800": {
+        "file": "assets/interiors/kitchen-arch-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 95730
+      },
+      "1600": {
+        "file": "assets/interiors/kitchen-arch-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 287040
+      }
+    }
+  },
+  {
+    "id": "exterior",
+    "sourcePage": 12,
+    "sourceLabel": "View 11",
+    "kind": "architectural-render",
+    "alt": "Exterior facade design render of Grillardin",
+    "originalSize": [
+      2560,
+      1063
+    ],
+    "variants": {
+      "800": {
+        "file": "assets/interiors/exterior-800.webp",
+        "width": 800,
+        "height": 332,
+        "bytes": 44332
+      },
+      "1600": {
+        "file": "assets/interiors/exterior-1600.webp",
+        "width": 1600,
+        "height": 664,
+        "bytes": 170234
+      }
+    }
+  }
+]
