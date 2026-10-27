@@ -1,0 +1,278 @@
+// Food photographs supplied by the restaurant owner on 27 October 2026.
+window.GRILLARDIN_PHOTOS = [
+  {
+    "id": "table-01",
+    "src": "assets/dishes/table-01-1600.webp",
+    "small": "assets/dishes/table-01-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "From the grill",
+    "alt": "A Grillardin grill platter with sauces and breads",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.22 PM (1).jpeg"
+  },
+  {
+    "id": "table-02",
+    "src": "assets/dishes/table-02-1600.webp",
+    "small": "assets/dishes/table-02-800.webp",
+    "width": 1292,
+    "height": 862,
+    "smallWidth": 800,
+    "caption": "Curry & company",
+    "alt": "A richly coloured curry with flatbread and accompaniments",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.22 PM.jpeg"
+  },
+  {
+    "id": "table-03",
+    "src": "assets/dishes/table-03-1600.webp",
+    "small": "assets/dishes/table-03-800.webp",
+    "width": 1067,
+    "height": 1600,
+    "smallWidth": 800,
+    "caption": "A table full of flavour",
+    "alt": "A Grillardin platter of grilled bites, skewers and colourful accompaniments",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.23 PM (1).jpeg"
+  },
+  {
+    "id": "table-04",
+    "src": "assets/dishes/table-04-1600.webp",
+    "small": "assets/dishes/table-04-800.webp",
+    "width": 1067,
+    "height": 1600,
+    "smallWidth": 800,
+    "caption": "Something to share",
+    "alt": "Grilled bites and skewers served with chutneys and sides",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.23 PM (2).jpeg"
+  },
+  {
+    "id": "table-05",
+    "src": "assets/dishes/table-05-1600.webp",
+    "small": "assets/dishes/table-05-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "Pass a platter",
+    "alt": "A mixed platter with grilled food, flatbread and dipping sauces",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.23 PM.jpeg"
+  },
+  {
+    "id": "table-06",
+    "src": "assets/dishes/table-06-1600.webp",
+    "small": "assets/dishes/table-06-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "At the centre of the table",
+    "alt": "A whole roasted chicken over rice with vegetables",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.24 PM (1).jpeg"
+  },
+  {
+    "id": "table-07",
+    "src": "assets/dishes/table-07-1600.webp",
+    "small": "assets/dishes/table-07-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "A little comfort",
+    "alt": "A lentil curry with charred flatbread and side dishes",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.24 PM (2).jpeg"
+  },
+  {
+    "id": "table-08",
+    "src": "assets/dishes/table-08-1600.webp",
+    "small": "assets/dishes/table-08-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "Settle in",
+    "alt": "A creamy curry with rice, lentils and chutney",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.24 PM (3).jpeg"
+  },
+  {
+    "id": "table-09",
+    "src": "assets/dishes/table-09-1600.webp",
+    "small": "assets/dishes/table-09-800.webp",
+    "width": 1067,
+    "height": 1600,
+    "smallWidth": 800,
+    "caption": "Small bites, big appetite",
+    "alt": "Grilled bites and vegetable patties with accompaniments",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.24 PM.jpeg"
+  },
+  {
+    "id": "table-10",
+    "src": "assets/dishes/table-10-1600.webp",
+    "small": "assets/dishes/table-10-800.webp",
+    "width": 1067,
+    "height": 1600,
+    "smallWidth": 800,
+    "caption": "A greener kind of comfort",
+    "alt": "A green curry served with flatbread and side dishes",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.25 PM (1).jpeg"
+  },
+  {
+    "id": "table-11",
+    "src": "assets/dishes/table-11-1600.webp",
+    "small": "assets/dishes/table-11-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "Across the table",
+    "alt": "A dark curry with rice, bread and accompaniments",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.25 PM (2).jpeg"
+  },
+  {
+    "id": "table-12",
+    "src": "assets/dishes/table-12-1600.webp",
+    "small": "assets/dishes/table-12-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "A coastal moment",
+    "alt": "A coconut-shell presentation with prawns, rice and crisp breads",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.25 PM.jpeg"
+  },
+  {
+    "id": "table-13",
+    "src": "assets/dishes/table-13-1600.webp",
+    "small": "assets/dishes/table-13-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "The comfort of a curry",
+    "alt": "An orange curry served with flatbread, lentils and salad",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.26 PM (1).jpeg"
+  },
+  {
+    "id": "table-14",
+    "src": "assets/dishes/table-14-1600.webp",
+    "small": "assets/dishes/table-14-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "Colour on the table",
+    "alt": "A vegetable curry with rice and crisp breads",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.26 PM (2).jpeg"
+  },
+  {
+    "id": "table-15",
+    "src": "assets/dishes/table-15-1600.webp",
+    "small": "assets/dishes/table-15-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "A little more flavour",
+    "alt": "A spiced curry with flatbread and raita",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.26 PM.jpeg"
+  },
+  {
+    "id": "table-16",
+    "src": "assets/dishes/table-16-1600.webp",
+    "small": "assets/dishes/table-16-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "Wrapped in flavour",
+    "alt": "Grilled food wrapped in banana leaf with crisp sides",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.27 PM (1).jpeg"
+  },
+  {
+    "id": "table-17",
+    "src": "assets/dishes/table-17-1600.webp",
+    "small": "assets/dishes/table-17-800.webp",
+    "width": 1067,
+    "height": 1600,
+    "smallWidth": 800,
+    "caption": "Fresh off the grill",
+    "alt": "Golden grilled bites on a banana leaf with chutney",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.27 PM (2).jpeg"
+  },
+  {
+    "id": "table-18",
+    "src": "assets/dishes/table-18-1600.webp",
+    "small": "assets/dishes/table-18-800.webp",
+    "width": 1292,
+    "height": 862,
+    "smallWidth": 800,
+    "caption": "A taste of the coast",
+    "alt": "A red curry with steamed rice and crisp breads",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.27 PM (3).jpeg"
+  },
+  {
+    "id": "table-19",
+    "src": "assets/dishes/table-19-1600.webp",
+    "small": "assets/dishes/table-19-800.webp",
+    "width": 1292,
+    "height": 862,
+    "smallWidth": 800,
+    "caption": "A crisp beginning",
+    "alt": "Crisp prawns presented with vegetable chips and accompaniments",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.27 PM.jpeg"
+  },
+  {
+    "id": "table-20",
+    "src": "assets/dishes/table-20-1600.webp",
+    "small": "assets/dishes/table-20-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "Something colourful",
+    "alt": "A vegetable curry and flatbread with raita and side dishes",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.28 PM (1).jpeg"
+  },
+  {
+    "id": "table-21",
+    "src": "assets/dishes/table-21-1600.webp",
+    "small": "assets/dishes/table-21-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "Made for the table",
+    "alt": "An orange curry and flatbread with chutneys",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.28 PM (2).jpeg"
+  },
+  {
+    "id": "table-22",
+    "src": "assets/dishes/table-22-1600.webp",
+    "small": "assets/dishes/table-22-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "One more spoonful",
+    "alt": "A creamy curry topped with nuts beside flatbread and raita",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.28 PM.jpeg"
+  },
+  {
+    "id": "table-23",
+    "src": "assets/dishes/table-23-1600.webp",
+    "small": "assets/dishes/table-23-800.webp",
+    "width": 1296,
+    "height": 864,
+    "smallWidth": 800,
+    "caption": "One more slice",
+    "alt": "A freshly baked Grillardin pizza on a wooden serving board",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.29 PM (1).jpeg"
+  },
+  {
+    "id": "table-24",
+    "src": "assets/dishes/table-24-1600.webp",
+    "small": "assets/dishes/table-24-800.webp",
+    "width": 1600,
+    "height": 1066,
+    "smallWidth": 800,
+    "caption": "Slice into the evening",
+    "alt": "A pepperoni pizza served on a wooden board",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.29 PM (2).jpeg"
+  },
+  {
+    "id": "table-25",
+    "src": "assets/dishes/table-25-1600.webp",
+    "small": "assets/dishes/table-25-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 800,
+    "caption": "A little of everything",
+    "alt": "A platter of seafood preparations with side dishes",
+    "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.29 PM.jpeg"
+  }
+];
