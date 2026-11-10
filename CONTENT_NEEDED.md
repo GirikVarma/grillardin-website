@@ -1,6 +1,6 @@
 # Grillardin — remaining content and confirmations
 
-Updated 27 October 2026 after the owner's menu confirmations, supplied food photographs, source story integration and direct Google Maps research.
+Updated 29 October 2026 after the owner confirmed the restaurant's new address and existing phone number.
 
 ## Now resolved
 
@@ -8,16 +8,16 @@ Updated 27 October 2026 after the owner's menu confirmations, supplied food phot
 - The unpriced “Coriander Onion, Mushroom, Chili Cheese” line is omitted at the owner's instruction.
 - Soup/salad options remain unchanged and confirmed. Tea remains in its current grouping.
 - Source dish/ingredient spellings remain unchanged. [Spelling review](docs/SPELLING_REVIEW.md) lists possible errors for optional later correction.
-- All 25 supplied food photographs are optimized and used in the food gallery. Selected photos also appear elsewhere; [photo mapping](docs/FOOD_PHOTOS_2026-10-27.md).
+- The original 25 optimized photos remain in the photo inventory. The curated homepage gallery and menu use four additional Drive photos. See the [original photo mapping](docs/FOOD_PHOTOS_2026-10-27.md).
 - The menu's page-3 story is published in full on `story.html`, with a short faithful summary on the homepage. Founder biography and dates are not invented.
-- Address, phone, daily hours and a dated rating snapshot are sourced directly from the correct Google profile. [Evidence and conflicting secondary listings](docs/BUSINESS_SOURCES.md).
+- The owner confirmed the new address at KLJ Square, Sector 83, and confirmed that the published phone number remains +91 96677 15068. Daily hours and a dated rating snapshot were taken from the earlier Google profile; [source notes](docs/BUSINESS_SOURCES.md).
 
 ## Still needed
 
 1. **Official social URLs:** Instagram, Facebook and WhatsApp destinations. The small footer icons currently announce “link coming soon.” They do not link to generic social homepages or invented accounts. Add each confirmed URL to `socials` in `dist/data/site.js` and rebuild.
 2. **Reservation destination and workflow:** still a placeholder message. The presence of a booking service on Google does not authorize changing the agreed first-draft workflow. Supply the approved destination when ready.
-3. **Business confirmation:** check the published Google address (including postal code 122101), phone and hours with the restaurant. Some secondary listings disagree. Confirm any holiday hours and provide email if it should be published.
-4. **Photo-to-menu mapping:** confirm which exact named dish each photograph shows before individual dish-photo labels are added. Existing captions remain descriptive. Supply photographer credit/rights details if a credit is required.
+3. **Remaining business details:** confirm whether the earlier published daily hours apply at the new location, including holiday hours, and provide email if it should be published. The Google profile used for the dated review snapshot still points to the previous address; the website directions link uses the owner's KLJ Square address.
+4. **Photo-to-menu mapping:** confirm the dish shown in each photo before adding individual dish labels. Supply photographer credit details if needed.
 5. **Finished interior photographs:** current supplied venue imagery is still correctly labelled architectural design renders.
 6. **Optional personal story:** the menu's concept story is in place. Approved founder names, portraits, dates and first-person details could enrich a future iteration, if desired.
 7. **Verified press/recognition:** provide original articles or links, publication/date and exact award evidence. The section remains hidden without verified entries.

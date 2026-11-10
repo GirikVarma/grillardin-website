@@ -1,8 +1,8 @@
-// Restaurant content. Sources checked 27 October 2026; see docs/BUSINESS_SOURCES.md.
+// Restaurant content. Owner-confirmed address and phone on 29 October 2026; see docs/BUSINESS_SOURCES.md.
 window.GRILLARDIN_SITE = {
   "name": "Grillardin",
   "tagline": "Your Grilling Hub",
-  "address": "1st Floor, M3M IFC, Badshahpur, Sector 66, Gurugram, Haryana 122101",
+  "address": "Grillardin, KLJ Square, Sector 83, Next to Hyatt Regency, Gurugram, Haryana 122012",
   "hours": [
     {
       "days": "Every day",
@@ -12,7 +12,7 @@ window.GRILLARDIN_SITE = {
   "phone": "+919667715068",
   "email": null,
   "whatsappUrl": null,
-  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=28.4050462%2C77.0587197",
+  "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=KLJ%20Square%2C%20Sector%2083%2C%20Gurugram%2C%20Haryana%20122012",
   "instagramUrl": null,
   "googleReviewUrl": "https://www.google.com/maps/place/Grillardin/@28.4050462,77.0587197,17z/data=!4m6!3m5!1s0x390d2394bd147d0d:0x6c6b79255ca7e30!8m2!3d28.4050462!4d77.0587197!16s%2Fg%2F11vbg1ptrq",
   "reservation": {
@@ -78,7 +78,7 @@ window.GRILLARDIN_SITE = {
       "caption": "Interior design render"
     }
   },
-  "hoursNote": "Holiday hours may differ. Check Google Maps before visiting.",
+  "hoursNote": "Holiday hours may differ. Please call before visiting.",
   "phoneDisplay": "+91 96677 15068",
   "businessSource": {
     "name": "Google Maps",
@@ -201,44 +201,31 @@ window.GRILLARDIN_SITE = {
       "checked": "2026-10-27"
     }
   ],
-  "gallery": [
-    "table-01",
-    "table-02",
-    "table-03",
-    "table-04",
-    "table-05",
-    "table-06",
-    "table-07",
-    "table-08",
-    "table-09",
-    "table-10",
-    "table-11",
-    "table-12",
-    "table-13",
-    "table-14",
-    "table-15",
-    "table-16",
-    "table-17",
-    "table-18",
-    "table-19",
-    "table-20",
-    "table-21",
-    "table-22",
-    "table-23",
-    "table-24",
-    "table-25"
-  ],
+  "gallery": {
+    "slideshow": [
+      "table-06",
+      "drive-tomato-soup",
+      "table-23",
+      "table-19",
+      "table-12"
+    ],
+    "reel": [
+      "table-05",
+      "table-16",
+      "drive-creamy-soup"
+    ]
+  },
   "menuPhotos": {
     "small-plates": [
-      "table-17",
-      "table-19"
+      "drive-beet-tikki",
+      "table-17"
     ],
     "large-plates": [
       "table-01",
       "table-06"
     ],
     "curries": [
-      "table-13",
+      "drive-amritsari-choley",
       "table-14"
     ],
     "lava-grill": [

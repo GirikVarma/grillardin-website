@@ -1,18 +1,20 @@
 # Grillardin business facts and guest excerpts
 
+The owner confirmed on **29 October 2026** that the current address is **Grillardin, KLJ Square, Sector 83, Next to Hyatt Regency, Gurugram, Haryana 122012**, and that the contact number remains **+91 96677 15068**. The website's directions link now searches for KLJ Square in Sector 83. The Google profile below was checked on 27 October and still describes the previous location; its coordinates are not used for directions. Its rating and guest reviews are retained as a dated source snapshot. Hours at the new location still need confirmation.
+
 Checked directly in the Google Maps business profile on **27 October 2026**, not inferred from a similarly named restaurant.
 
 [Google Maps profile](https://www.google.com/maps/place/Grillardin/@28.4050462,77.0587197,17z/data=!4m6!3m5!1s0x390d2394bd147d0d:0x6c6b79255ca7e30!8m2!3d28.4050462!4d77.0587197!16s%2Fg%2F11vbg1ptrq)
 
 - Name: Grillardin / ग्रिलार्डिन.
-- Location: 1st Floor, M3M IFC, Badshahpur, Sector 66, Gurugram, Haryana 122101.
+- Location shown then: 1st Floor, M3M IFC, Badshahpur, Sector 66, Gurugram, Haryana 122101 (previous address; superseded by the owner's 29 October update).
 - Telephone displayed: 096677 15068. International website link: +91 96677 15068.
 - Coordinates: 28.4050462, 77.0587197.
 - Weekly opening hours: daily 12:30–11:30 pm, normalized to 12:30 pm–11:30 pm. The expanded hours screen listed every day. Google flags that holiday hours might differ; the website preserves that qualification.
 - Rating snapshot: 4.8, 475 reviews, checked 27 October 2026. This is a dated snapshot, not a live feed.
 - Listed existing domain: thegrillardin.com, which currently serves a coming-soon page. It is not added as a guest-facing website link.
 
-The listing's place ID and location match M3M IFC and the user's explicit “Grillardin Gurgaon” identification. Some secondary platforms disagree on Sector 65/66, postal code, phone number or whether dining is open. Their facts were not substituted for the direct Google profile. Confirm the details with the restaurant before a public launch and refresh the dated rating when appropriate.
+The listing's place ID and location matched M3M IFC when checked. It now conflicts with the owner's current address. The owner's correction governs the website address and directions. Confirm hours at the new location before treating the older listing as current; refresh the dated rating when appropriate.
 
 ## Selected reviews
 

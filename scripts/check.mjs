@@ -15,7 +15,7 @@ assert.equal(new Set(menu.categories.map(c=>c.id)).size,13,'Unique category anch
 assert.equal(menu.categories.find(c=>c.id==='salads').items.find(i=>i.name.includes('Bocconcini')).price,'Rs. 400','Owner-confirmed salad price');
 assert.equal(menu.categories.find(c=>c.id==='add-ons').note,undefined,'Owner removed the stray Add Ons line');
 assert.equal(menu.categories.find(c=>c.id==='shakes').items.some(i=>i.name==='TEA'),true,'Tea grouping preserved');
-assert.equal(photos.length,25,'All supplied photos are included');
+assert.equal(photos.length,29,'Original and newly selected Drive photos are available');
 assert.equal(site.story.paragraphs.length,9,'Full source story is retained');
 assert.equal(site.reservation.mode,'placeholder','Booking remains a prototype');
 assert.equal(site.signup.enabled,false,'No personal data collection');
@@ -37,7 +37,14 @@ for(const page of ['index.html','menu.html','story.html']){
  }
 }
 const homeHtml=read('index.html'),storyHtml=read('story.html');
-assert.equal([...homeHtml.matchAll(/class="gallery-slide"/g)].length,25,'All supplied photos in carousel');
+assert.match(homeHtml,/KLJ SQUARE · GURUGRAM/,'Hero shows current location');
+assert.match(homeHtml,/Grillardin, KLJ Square, Sector 83, Next to Hyatt Regency, Gurugram, Haryana 122012/,'Owner-confirmed address is visible');
+assert.match(homeHtml,/destination=KLJ%20Square%2C%20Sector%2083%2C%20Gurugram%2C%20Haryana%20122012/,'Directions use current location');
+assert.doesNotMatch(homeHtml,/M3M IFC|destination=28\.4050462/,'No old address or old-location directions on homepage');
+assert.match(homeHtml,/href="tel:\+919667715068">\+91 96677 15068/,'Owner-confirmed phone is linked');
+assert.equal([...homeHtml.matchAll(/class="swiper-slide food-shot/g)].length,5,'Five curated slideshow photos');
+assert.equal([...homeHtml.matchAll(/class="food-reel-frame"/g)].length,3,'Three scroll reel frames');
+assert.equal(new Set([...site.gallery.slideshow,...site.gallery.reel]).size,8,'No repeated photos in the homepage gallery');
 assert.equal([...homeHtml.matchAll(/class="guest-quote"/g)].length,10,'Ten attributed review excerpts');
 assert.equal(site.reviews.length,10,'Ten selected guest reviews');
 assert.equal(new Set(site.reviews.map(r=>r.author)).size,10,'Ten different reviewers');
@@ -62,6 +69,10 @@ for(const [slot,image] of Object.entries(site.images))for(const key of ['src','s
  assert.ok(statSync(resolve(dist,image[key])).size>1000,`Empty image ${image[key]}`);
 }
 const menuHtml=read('menu.html');
+for (const [category, photo] of [['small-plates', 'drive-beet-tikki'], ['curries', 'drive-amritsari-choley']]) {
+ const section = menuHtml.match(new RegExp(`<section class="menu-category" id="${category}"[^>]*>([\\s\\S]*?)</section>`))?.[1];
+ assert.ok(section?.includes(`assets/dishes/${photo}.webp`), `${photo} appears in ${category}`);
+}
 assert.equal([...menuHtml.matchAll(/class="menu-item"/g)].length,103,'All entries are readable in pre-rendered HTML');
-for(const file of ['app.js','enhancements.js','data/menu.js','data/site.js','data/photos.js'])execFileSync(process.execPath,['--check',resolve(dist,file)]);
-console.log('PASS: 3 pages, 103 menu rows, owner corrections, full story, 25 photos, review attribution, Home navigation, local links/assets/anchors, JS syntax, prototype constraints.');
+for(const file of ['app.js','enhancements.js','food-gallery.js','data/menu.js','data/site.js','data/photos.js'])execFileSync(process.execPath,['--check',resolve(dist,file)]);
+console.log('PASS: 3 pages, 103 menu rows, owner corrections, full story, slideshow and scroll reel, 29 photos, review attribution, Home navigation, local links/assets/anchors, JS syntax, prototype constraints.');

@@ -1,4 +1,4 @@
-// Food photographs supplied by the restaurant owner on 27 October 2026.
+// Food photographs supplied by the restaurant owner via WhatsApp and Drive.
 window.GRILLARDIN_PHOTOS = [
   {
     "id": "table-01",
@@ -274,5 +274,45 @@ window.GRILLARDIN_PHOTOS = [
     "caption": "A little of everything",
     "alt": "A platter of seafood preparations with side dishes",
     "sourceFile": "WhatsApp Image 2026-10-26 at 1.07.29 PM.jpeg"
+  },
+  {
+    "id": "drive-tomato-soup",
+    "src": "assets/dishes/drive-tomato-soup.webp",
+    "small": "assets/dishes/drive-tomato-soup-small.webp",
+    "width": 1067,
+    "height": 1600,
+    "smallWidth": 480,
+    "alt": "Tomato soup being poured beside a garnished toast",
+    "sourceFile": "ANK00055.jpg"
+  },
+  {
+    "id": "drive-creamy-soup",
+    "src": "assets/dishes/drive-creamy-soup.webp",
+    "small": "assets/dishes/drive-creamy-soup-small.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 720,
+    "alt": "Creamy soup in a dark bowl with a garnished toast",
+    "sourceFile": "ANK00076.jpg"
+  },
+  {
+    "id": "drive-beet-tikki",
+    "src": "assets/dishes/drive-beet-tikki.webp",
+    "small": "assets/dishes/drive-beet-tikki-small.webp",
+    "width": 1067,
+    "height": 1600,
+    "smallWidth": 480,
+    "alt": "Amaranth crusted beet tikki with chutney",
+    "sourceFile": "Amaranth crusted beet tikki"
+  },
+  {
+    "id": "drive-amritsari-choley",
+    "src": "assets/dishes/drive-amritsari-choley.webp",
+    "small": "assets/dishes/drive-amritsari-choley-small.webp",
+    "width": 1600,
+    "height": 1067,
+    "smallWidth": 720,
+    "alt": "Amritsari choley with tandoori kulcha and accompaniments",
+    "sourceFile": "Amratsari choley,tamarind chilli chutney, tandoori kulcha, raita"
   }
 ];
